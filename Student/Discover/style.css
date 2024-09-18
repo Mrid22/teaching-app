@@ -2,7 +2,7 @@ header{
     width: 100%;
     height: 65px;
     position: sticky;
-    background-color: #377ADF;
+    background-color: orange;
 }
 
 nav{
@@ -12,5 +12,19 @@ nav{
     justify-content: space-around;
     align-items: center;
     color: white;
-    font-size: 45px;
+    font-size: 35px;
+}
+
+a{
+    color: black;
+
+}
+
+a:hover{
+    color: #4b4c4d;
+    margin: 20%
+}
+
+input{
+    width:100%
 }
