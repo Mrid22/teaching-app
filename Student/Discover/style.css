@@ -22,9 +22,9 @@ a{
 
 a:hover{
     color: #4b4c4d;
-    margin: 20%
 }
 
 input{
     width:100%
+    margin: 20%;
 }
