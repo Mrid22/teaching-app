@@ -20,6 +20,6 @@ account.addEventListener("click",function(){
     indicator.style.left=account.offsetLeft+"px"
     indicator.style.width=account.offsetWidth+"px"
     setTimeout(function(){
-        window.location.href="Account/index.html"  
+        window.location.href="../Account/index.html"  
     },500)
 })
