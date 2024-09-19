@@ -9,6 +9,9 @@ indicator.style.width=account.offsetWidth+"px"
 discover.addEventListener("click",function(){
     indicator.style.left=discover.offsetLeft+"px"
     indicator.style.width=discover.offsetWidth+"px"
+    setTimeout(function(){
+        window.location.href="../Discover/index.html"
+    })
 })
 
 home.addEventListener("click",function(){
