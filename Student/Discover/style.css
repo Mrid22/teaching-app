@@ -48,4 +48,9 @@ input{
     display: block;
     background-color: #FFFFFF;
     border-radius: 20px;
+    border-width:
+}
+
+input::placeholder{
+    padding-inline: 5px;
 }
