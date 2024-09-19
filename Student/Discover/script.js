@@ -3,8 +3,8 @@ home=document.getElementById("Home")
 discover=document.getElementById("Discover")
 account=document.getElementById("Account")
 
-indicator.style.left=home.offsetLeft+"px"
-indicator.style.width=home.offsetWidth+"px"
+indicator.style.left=discover.offsetLeft+"px"
+indicator.style.width=discover.offsetWidth+"px"
 
 discover.addEventListener("click",function(){
     indicator.style.left=discover.offsetLeft+"px"
