@@ -9,11 +9,17 @@ indicator.style.width=home.offsetWidth+"px"
 discover.addEventListener("click",function(){
     indicator.style.left=discover.offsetLeft+"px"
     indicator.style.width=discover.offsetWidth+"px"
+    setTimeout(function(){
+        window.location.href="index.html"  
+    },500)
 })
 
 home.addEventListener("click",function(){
     indicator.style.left=home.offsetLeft+"px"
     indicator.style.width=home.offsetWidth+"px"
+    setTimeout(function(){
+        window.location.href="../Home/index.html"  
+    },500)
 })
 
 account.addEventListener("click",function(){
