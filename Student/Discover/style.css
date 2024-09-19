@@ -39,12 +39,13 @@ nav p:hover{
 }
 input{
     width: 85%;
+    height: 50px;
     position: relative;
     top: 5px;
     left: 0px;
     justify-self: center;
-}
-
-#recommended{
-    
+    margin: auto;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 20px;
 }
