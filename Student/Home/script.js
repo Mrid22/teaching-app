@@ -11,7 +11,7 @@ discover.addEventListener("click",function(){
     indicator.style.width=discover.offsetWidth+"px"
     setTimeout(function(){
         window.location.href="../Discover/index.html"
-    })
+    },500)
 })
 
 home.addEventListener("click",function(){
