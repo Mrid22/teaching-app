@@ -38,13 +38,13 @@ nav p:hover{
     border-radius: 10px 10px 0px 0px;
 }
 input{
-    display: block;
-    width: 100%;
-    position: sticky;
+    width: 85%;
+    position: relative;
     top: 5px;
     left: 0px;
+    justify-self: center;
 }
 
 #recommended{
-
+    
 }
