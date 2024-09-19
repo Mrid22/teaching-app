@@ -39,7 +39,10 @@ nav p:hover{
 }
 input{
     display: block;
-    width: 90%;
+    width: 100%;
+    position: sticky;
+    top: 5px;
+    left: 0px;
 }
 
 #recommended{
