@@ -58,3 +58,7 @@ input::placeholder{
     font-size: 20px;
     align-self: center;
 }
+
+#course1{
+    padding: 30px;
+}
