@@ -57,5 +57,14 @@ input::placeholder{
     left: 5px;
     font-size: 20px;
     align-self: center;
-    user-select: none;
+}
+
+
+
+#course1{
+    padding: 30px;
+    border: solid, 3px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border-radius: 20px;
 }
