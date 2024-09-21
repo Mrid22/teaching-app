@@ -38,28 +38,49 @@ nav p:hover{
     transition: 0.5s;
     border-radius: 10px 10px 0px 0px;
 }
-input{
-    width: 85%;
-    height: 60px;
+
+#search-box{
+    display: flex;
     position: relative;
     top: 5px;
-    left: 0px;
-    justify-self: center;
-    margin: auto;
-    display: block;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    border: solid, 5px;
+    left: 5px;
+    background-image: linear-gradient(75deg, orange 50%, rgb(255,0,0));
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
     align-items: center;
+    justify-content: right;
+    width: 95%;
+}
+
+input{
+    width: 95%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: white;
+    font-size: 20px;
 }
 
 input::placeholder{
-    position: absolute;
-    left: 5px;
-    font-size: 20px;
-    align-self: center;
-    user-select: none;
+    color: black;
+    padding-left: 5px;
 }
+
+input:focus-visible{
+    border: none;
+    outline: none;
+}
+
+
+#search-box svg{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #recommended{
     padding-left: 15px;
 }
