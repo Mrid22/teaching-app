@@ -32,47 +32,58 @@ nav p:hover{
 
 #indicator{
     position: absolute;
-    height: 10px;
+    height: 5px;
     bottom: 0;
     background-color: white;
     transition: 0.5s;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
 }
+
 
 #search-box{
+    width: 100%;
+    height: 55px;
     display: flex;
-    position: relative;
-    top: 5px;
-    left: 5px;
-    background-image: linear-gradient(75deg, orange 50%, rgb(255,0,0));
-    height: 50px;
-    border-radius: 40px;
-    padding: 10px;
-    align-items: center;
     justify-content: right;
-    width: 95%;
+    align-items: center;
+    background-color: orange;
 }
-
 input{
-    width: 95%;
+    width: 100%;
     height: 45px;
     border: none;
     outline: none;
-    border-radius: 40px;
+    border-radius: 5px;
     background-color: white;
+    opacity: 35%;
     font-size: 20px;
+    margin: 5px;
+}
+
+.course-name{
+    display: none;
 }
 
 input::placeholder{
     color: black;
-    padding-left: 5px;
+    font-size: 20px;
+    
+
 }
 
-input:focus-visible{
-    border: none;
+input:focus{
     outline: none;
+    border: none;
+    color: black;
 }
 
+input:focus::placeholder{
+    color: transparent;
+}
+
+datalist{
+    width: 100%;
+}
 
 #search-box svg{
     height: 30px;
@@ -113,4 +124,20 @@ img{
     height: 100px;
     width: 150px;
     top: 200px;
+}
+
+#resultsbox{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height:fit-content;
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }

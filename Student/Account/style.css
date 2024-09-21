@@ -31,11 +31,11 @@ nav p:hover{
 
 #indicator{
     position: absolute;
-    height: 10px;
+    height: 5px;
     bottom: 0;
     background-color: white;
     transition: 0.5s;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
 }
 
 .button {
