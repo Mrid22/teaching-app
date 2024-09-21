@@ -16,5 +16,63 @@
         </nav>
         <div id="indicator"></div>
     </header>
+    <div class="profile">
+        <form action = "/formdata.html" method = "POST">
+            <h3>Edit Profile Information:</h3>
+            <p>Click on any fields to change them!</p>
+
+            <label for="username">Username:</label>
+            <input type="text" name="newUsername" value="user123" id="username"> 
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="text" name="newEmail" value="user@example.com" id="email">
+            <br>
+            <br>
+
+
+            <label for="password">Password: </label>
+            <input type="password" name="newPassword" value="currentPassword" id="password">
+
+            <br>
+            <br>
+
+            <label for="bio">(Optional) Bio/About Yourself: </label>
+            <br>
+            <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+
+            <br>
+            <br>
+
+            <label for="status">(Optional) Employment/Education Status: </label>
+            <input type="text" name="status" id="status" list="status-suggestions">
+
+            <datalist id="status-suggestions">
+                <option value="Student"></option>
+                <option value="Unemployed"></option>
+                <option value="Self-employed"></option>
+                <option value="Full-time"></option>
+                <option value="Other"></option>  
+            </datalist>
+
+            <p>Notification Settings:</p>
+
+            <label for="deadline-reminders">Deadline Reminders:</label>
+            <input type="checkbox" name="deadline-reminders"  value="deadline-reminders">
+
+            <label for="tutor-meeting-reminders">Tutor Meeting Reminders:</label>
+            <input type="checkbox" name="tutor-meeting-reminders"  value="tutor-meeting-reminders">
+            
+            <label for="course-recommendations">Course Recommendations:</label>
+            <input type="checkbox" name="course-recommendations"  value="course-recommendations">
+
+            <br>
+            <br>
+            <br>  
+            
+            <input type="submit" value="Update Settings">
+        </form>
+    </div>
 </body>
 </html>
